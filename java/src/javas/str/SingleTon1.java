@@ -5,6 +5,7 @@ public class SingleTon1 {
 	private SingleTon1(){}
 	
 	private static SingleTon1 instance = null;
+	//***********************************
 	
 	public static SingleTon1 getInstance(){
 		
