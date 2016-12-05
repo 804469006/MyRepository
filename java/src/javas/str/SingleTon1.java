@@ -13,7 +13,6 @@ public class SingleTon1 {
 			synchronized (SingleTon1.class) {
 				
 				if(instance==null){
-					
 					instance = new SingleTon1();
 				}
 			}
